@@ -22,6 +22,8 @@ npm install
 cd frontend
 npm install
 ```
+#### IGNORE all the vulnerability and critical error of libraries..
+
 For Backend<br>
 (currently in root directory)
 ```shell
