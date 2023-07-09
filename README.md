@@ -18,11 +18,11 @@ cd real-time-chat-app
 
 Now install the dependencies
 ```shell
-npm install
+npm run build
 cd frontend
 npm install
 ```
-#### IGNORE all the vulnerability and critical error of libraries..
+#### IGNORE all the vulnerabilities...
 
 For Backend<br>
 (currently in root directory)
