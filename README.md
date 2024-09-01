@@ -2,23 +2,31 @@
 
 - It's a chat application build with MERN Stack.
 - It uses socket.io library for low-latency communication between client and server.
+<img src="images/1.png"> <br/>
+<img src="images/3.png"> <br/>
+<img src="images/5.png"> <br/>
+<img src="images/6.png"> <br/>
 
 ## Installation Guide
 
 ### Requirements
 - [Nodejs](https://nodejs.org/en/download)
-- [Mongodb](https://www.mongodb.com/docs/manual/administration/install-community/)
-
-Both should be installed and make sure mongodb is running locally.
+should be installed locally
 
 ```shell
 git clone https://github.com/Ishant2004/real-time-chat-app.git
 cd real-time-chat-app
 ```
 
+Now create a .env file and add the following variables
+```shell
+MONGO_URI=<copy the connection string front the mongodb atlas(make sure to make network access to open)>
+JWT_SECRET=<your name>
+```
+
 Now install the dependencies
 ```shell
-npm run build
+npm install
 cd frontend
 npm install
 ```
@@ -27,10 +35,9 @@ npm install
 For Backend<br>
 (currently in root directory)
 ```shell
-npm start
+npm run start
 ```
 For Frontend: Open another terminal<br>
-(Also make sure mongodb is running in background)<br>
 (currently in root directory)
 ```shell
 cd frontend
@@ -46,6 +53,4 @@ npm start
 ### Project Members
 - Ishant Rohilla(mail_id : i.rohilla@iitg.ac.in)
 - Abhishek Kumar(mail_id : abhishek.eee21@iitg.ac.in)
-- Khushi Bhatt(mail_id : b.khushi@iitg.ac.in)
 - Rohit Kohli(mail_id : rohit.kohli@iitg.ac.in)
-- Keshav Goyal(mail_id : g.keshav@iitg.ac.in)
